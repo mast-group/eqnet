@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Expression Representation Visualization</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="code.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Expression Representations</h1>
+
+<div id="embed"><h2>You have probably followed the wrong link...</h2></div>
+
+<h3>Data Point Information</h3>
+<p>Put your mouse over a point to see information about it.</p>
+<form id="pointDataBrush">
+    <div class="form-group">
+        <label for="Expression">Expression</label>
+        <code id="Expression"></code>
+    </div>
+
+    <div class="form-group">
+        <label for="EqClass">Equivalence Class</label>
+        <code id="EqClass"></code>
+        <p id="EqClassExtraInfo"></p>
+    </div>
+</form>
+
+<footer>
+    <p></p>
+</footer>
+
+</body>
+</html>

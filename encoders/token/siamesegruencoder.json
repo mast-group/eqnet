@@ -1,0 +1,79 @@
+{
+  "log_embedding_size": {
+    "name": "log_embedding_size",
+    "type": "int",
+    "min": 3,
+    "max": 8,
+    "size": 1
+  },
+  "minibatch_size": {
+    "name": "minibatch_size",
+    "type": "int",
+    "min": 50,
+    "max": 1000,
+    "size": 1
+  },
+  "log_init_noise": {
+    "name": "log_init_noise",
+    "type": "float",
+    "min": -5,
+    "max": -1,
+    "size": 1
+  },
+  "log_learning_rate": {
+    "name": "log_learning_rate",
+    "type": "float",
+    "min": -3.5,
+    "max": -0.5,
+    "size": 1
+  },
+  "rmsprop_rho": {
+    "name": "rmsprop_rho",
+    "type": "float",
+    "min": 0.8,
+    "max": 0.999,
+    "size": 1
+  },
+  "dropout_rate": {
+    "name": "dropout_rate",
+    "type": "float",
+    "min": 0,
+    "max": 0.4,
+    "size": 1
+  },
+  "momentum": {
+    "name": "momentum",
+    "type": "float",
+    "min": 0,
+    "max": 0.97,
+    "size": 1
+  },
+  "grad_clip": {
+    "name": "grad_clip",
+    "type": "float",
+    "min": 0.2,
+    "max": 3,
+    "size": 1
+  },
+  "dissimilar_margin": {
+    "name": "dissimilar_margin",
+    "type": "float",
+    "min": 0.01,
+    "max": 0.1,
+    "size": 1
+  },
+  "num_centroids": {
+    "name": "num_centroids",
+    "type": "int",
+    "min": 10,
+    "max": 500,
+    "size": 1
+  },
+  "centroid_use_rate": {
+    "name": "centroid_use_rate",
+    "type": "float",
+    "min": 0.1,
+    "max": 0.9,
+    "size": 1
+  }
+}

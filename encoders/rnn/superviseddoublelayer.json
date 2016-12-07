@@ -1,0 +1,86 @@
+{
+  "log_memory_size": {
+    "name": "log_embedding_size",
+    "type": "int",
+    "min": 4,
+    "max": 9,
+    "size": 1
+  },
+  "log_hidden_layer_size": {
+    "name": "log_hidden_layer_size",
+    "type": "int",
+    "min": 4,
+    "max": 9,
+    "size": 1
+  },
+  "minibatch_size": {
+    "name": "minibatch_size",
+    "type": "int",
+    "min": 50,
+    "max": 1000,
+    "size": 1
+  },
+  "log_init_scale_embedding": {
+    "name": "log_init_scale_embedding",
+    "type": "float",
+    "min": -4,
+    "max": -1,
+    "size": 1
+  },
+  "log_learning_rate": {
+    "name": "log_learning_rate",
+    "type": "float",
+    "min": -3.5,
+    "max": -1,
+    "size": 1
+  },
+  "rmsprop_rho": {
+    "name": "rmsprop_rho",
+    "type": "float",
+    "min": 0.5,
+    "max": 0.9999,
+    "size": 1
+  },
+  "dropout_rate": {
+    "name": "dropout_rate",
+    "type": "float",
+    "min": 0,
+    "max": 0.5,
+    "size": 1
+  },
+  "momentum": {
+    "name": "momentum",
+    "type": "float",
+    "min": 0,
+    "max": 0.99,
+    "size": 1
+  },
+  "grad_clip": {
+    "name": "grad_clip",
+    "type": "float",
+    "min": 0.1,
+    "max": 5,
+    "size": 1
+  },
+  "curriculum_initial_size": {
+    "name": "curriculum_initial_size",
+    "type": "float",
+    "min": 2,
+    "max": 10,
+    "size": 1
+  },
+  "curriculum_step": {
+    "name": "curriculum_step",
+    "type": "float",
+    "min": 0.1,
+    "max": 5,
+    "size": 1
+  },
+  "accuracy_margin": {
+    "name": "accuracy_margin",
+    "type": "float",
+    "min": 0.05,
+    "max": 4,
+    "size": 1
+  }
+}

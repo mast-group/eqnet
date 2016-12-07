@@ -1,0 +1,121 @@
+{
+  "log_memory_size": {
+    "name": "log_embedding_size",
+    "type": "int",
+    "min": 5,
+    "max": 9,
+    "size": 1
+  },
+  "log_hidden_layer_size": {
+    "name": "log_hidden_layer_size",
+    "type": "int",
+    "min": 4,
+    "max": 9,
+    "size": 1
+  },
+  "minibatch_size": {
+    "name": "minibatch_size",
+    "type": "int",
+    "min": 50,
+    "max": 1000,
+    "size": 1
+  },
+  "log_ae_representation_size": {
+    "name": "log_ae_representation_size",
+    "type": "int",
+    "min": 2,
+    "max": 10,
+    "size": 1
+  },
+  "log_init_scale_embedding": {
+    "name": "log_init_scale_embedding",
+    "type": "float",
+    "min": -4,
+    "max": -1,
+    "size": 1
+  },
+  "log_learning_rate": {
+    "name": "log_learning_rate",
+    "type": "float",
+    "min": -3.5,
+    "max": -1,
+    "size": 1
+  },
+  "rmsprop_rho": {
+    "name": "rmsprop_rho",
+    "type": "float",
+    "min": 0.5,
+    "max": 0.9999,
+    "size": 1
+  },
+  "dropout_rate": {
+    "name": "dropout_rate",
+    "type": "float",
+    "min": 0,
+    "max": 0.5,
+    "size": 1
+  },
+  "ae_noise": {
+    "name": "ae_noise",
+    "type": "float",
+    "min": 0.01,
+    "max": 0.99,
+    "size": 1
+  },
+  "momentum": {
+    "name": "momentum",
+    "type": "float",
+    "min": 0,
+    "max": 0.99,
+    "size": 1
+  },
+  "grad_clip": {
+    "name": "grad_clip",
+    "type": "float",
+    "min": 0.1,
+    "max": 5,
+    "size": 1
+  },
+  "curriculum_initial_size": {
+    "name": "curriculum_initial_size",
+    "type": "float",
+    "min": 2,
+    "max": 10,
+    "size": 1
+  },
+  "curriculum_step": {
+    "name": "curriculum_step",
+    "type": "float",
+    "min": 0.02,
+    "max": 5,
+    "size": 1
+  },
+  "max_num_similar_examples": {
+    "name": "max_num_similar_examples",
+    "type": "int",
+    "min": 1,
+    "max": 10,
+    "size": 1
+  },
+  "max_num_dissimilar_examples": {
+    "name": "max_num_dissimilar_examples",
+    "type": "int",
+    "min": 1,
+    "max": 50,
+    "size": 1
+  },
+  "dissimilar_margin": {
+    "name": "dissimilar_margin",
+    "type": "float",
+    "min": 0.001,
+    "max": 3,
+    "size": 1
+  },
+  "constrain_intro_log_rate": {
+    "name": "constrain_intro_log_rate",
+    "type": "int",
+    "min": 1,
+    "max": 10,
+    "size": 1
+  },
+}
