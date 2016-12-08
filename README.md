@@ -17,4 +17,16 @@ To train an eqnet run
 ```
 python encoders/rnn/trainsupervised.py <trainingFileName> <validationFileName>
 ```
-a `.pkl` file will be produced containing the trained network.
+a `.pkl` file will be produced containing the trained network. Data files (in `.json.gz` format) can be found [here](http://groups.inf.ed.ac.uk/cup/semvec/).
+
+To test any network implementing the `AbstractEncoder` interface, use the following command.
+```
+python encoders/evaluation/knnstats.py <encoderPkl> <evaluationFilename> <allFilename>
+```
+
+Note that for running all Python code, you need to add all the repository packages to the `PYTHONPATH` environment variable.
+
+
+Generating Synthetic Data
+-----
+If you wish to generate synthetic (expression) data, look a the code in the `data.synthetic` package [here](https://github.com/mast-group/eqnet/tree/master/data/synthetic).
